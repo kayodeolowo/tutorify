@@ -1,9 +1,13 @@
+import Navbar from "./Pages/Navbar";
+import Hero from "./Pages/Hero";
+
 
 
 function App() {
   return (
-    <div className="App">
-     <h1 className='text-red-400'> fv</h1> 
+    <div className="">
+    <Navbar/>
+    <Hero/>
     </div>
   );
 }
